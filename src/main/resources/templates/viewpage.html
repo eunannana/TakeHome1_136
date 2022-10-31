@@ -5,11 +5,37 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>HEALING!</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            table, th, td{
+                border: 1px solid black;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-bottom: 10px;
+                padding-top: 10px;
+            }
+            img{
+                width : 400px;
+            }
+        </style>
     </head>
     <body>
-        <div>TODO write content</div>
+        <table style="fit-auto">
+            <tr>
+                <td>
+            <center><h1>HEALING! \^0^/</h1></center>
+            <hr/>
+            Name : <l th:text="${package1}"></l>
+            <br/><br/>
+            Location : <l th:text="${package2}"></l>
+            <br/><br/>
+            Picture : </br></br>
+            <img th:src="${package3}">
+
+            </td>
+            </tr>
+        </table> 
     </body>
 </html>
